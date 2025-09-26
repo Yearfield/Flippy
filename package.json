@@ -1,0 +1,24 @@
+{
+  "name": "solicitor-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo scaffold for the Solicitor desktop application suite",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint \"{apps,packages}/**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,yml,yaml}\"",
+    "typecheck:ts": "tsc -b && tsc -b --clean",
+    "test": "pytest apps/convsvc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.1",
+    "typescript": "~5.3.3"
+  }
+}

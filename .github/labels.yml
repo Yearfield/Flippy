@@ -1,0 +1,18 @@
+- name: epic
+  color: 5319e7
+  description: Tracks a multi-issue epic
+- name: feature
+  color: 0e8a16
+  description: Adds new functionality
+- name: bug
+  color: d73a4a
+  description: Something is broken
+- name: tech-debt
+  color: f9d0c4
+  description: Clean-up or refactor tasks
+- name: security
+  color: b60205
+  description: Security-related work items
+- name: blocked
+  color: fef2c0
+  description: Work cannot proceed due to dependency

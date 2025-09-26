@@ -1,0 +1,9 @@
+{
+  "name": "@solicitor/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "echo 'Electron app entry point placeholder'"
+  }
+}
