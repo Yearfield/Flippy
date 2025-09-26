@@ -1,0 +1,12 @@
+# Default owners
+*       @solicitor-eng/core
+
+# JavaScript / UI ownership
+apps/desktop/ @solicitor-eng/js-team
+apps/web-ui/  @solicitor-eng/js-team
+packages/common/ @solicitor-eng/js-team
+packages/pdf-tools/ @solicitor-eng/js-team
+packages/docx-tools/ @solicitor-eng/js-team
+
+# Python conversion service ownership
+apps/convsvc/ @solicitor-eng/python-team

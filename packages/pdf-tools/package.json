@@ -1,0 +1,6 @@
+{
+  "name": "@solicitor/pdf-tools",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts"
+}

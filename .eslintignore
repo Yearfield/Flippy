@@ -1,0 +1,4 @@
+apps/convsvc/
+**/dist/
+coverage/
+node_modules/
